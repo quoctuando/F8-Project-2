@@ -350,3 +350,84 @@ a {
     font-weight: 600;
     line-height: 1.66;
 }
+
+/* Testimonial */
+.testimonial {
+    background: #2e2100;
+}
+.testimonial__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0;
+}
+
+.testimonial__avatar-box {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonial__avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.testimonial__name {
+    margin-top: 18px;
+    color: #f7f7f7;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.41;
+}
+
+.testimonial__desc {
+    margin-top: 4px;
+    color: #bfbcb2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.testimonial__dot {
+    margin-top: 28px;
+    display: flex;
+    gap: 6px;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background: #634700;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dot--active {
+    background: #ffb900;
+    cursor: default;
+}
+
+.testimonial__content {
+    position: relative;
+    width: 65%;
+}
+
+.testimonial__icon{
+    position: absolute;
+    left: -30px;
+}
+
+.testimonial__text {
+    padding-top: 28px;
+    color: #fff;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.53;
+}

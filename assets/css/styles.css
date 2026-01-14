@@ -40,6 +40,12 @@ a {
     background: #171100;
 }
 
+.btn--primary {
+    width: 137px;
+    font-size: 1.6rem;
+    background: #ffb900;
+}
+
 .desc {
     color: #5f5b53;
     font-size: 1.6rem;
@@ -485,8 +491,42 @@ a {
 }
 
 .features__btn {
-    width: 137px;
     margin-top: 32px;
-    font-size: 1.6rem;
-    background: #ffb900;
+}
+
+/* Call to action */
+.cta {
+    padding-bottom: 200px;
+}
+.cta__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta__content {
+    width: 50%;
+}
+
+.cta__media {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta__img {
+    width: 80.34%;
+    height: 440px;
+    margin-left: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.cta__desc {
+    margin-top: 16px;
+}
+
+.cta__btn {
+    margin-top: 32px;
 }

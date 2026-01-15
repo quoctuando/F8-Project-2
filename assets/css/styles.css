@@ -46,13 +46,6 @@ a {
     background: #ffb900;
 }
 
-.desc {
-    color: #5f5b53;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.75;
-}
-
 .heading {
     color: #171100;
     font-family: var(--font-heading);
@@ -60,6 +53,13 @@ a {
     font-weight: 700;
     line-height: 1.26;
     letter-spacing: -0.076rem;
+}
+
+.desc {
+    color: #5f5b53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
 }
 
 /* Header */
@@ -529,4 +529,98 @@ a {
 
 .cta__btn {
     margin-top: 32px;
+}
+
+/* Blog */
+.blog {
+    padding: 96px 0;
+    background-color: #fffcf4;
+}
+
+.blog__header {
+    text-align: center;
+}
+
+.blog__desc {
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 448px;
+}
+
+.blog__list {
+    margin-top: 55px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.blog-card {
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.blog-card__media {
+    width: 100%;
+    height: 250px;
+}
+
+.blog-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.blog-card__content {
+    padding: 20px 20px 28px 20px;
+}
+
+.blog-card__date {
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.blog-card__meta {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.blog-card__meta::after {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    content: "";
+    display: block;
+    width: 160px;
+    height: 1px;
+    border-radius: 0.5px;
+    background: #e2dfda;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.blog-card__heading {
+    margin-top: 24px;
+    color: #171100;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.blog-card__btn{
+    margin-top: 12px;
+}
+
+.blog__dots{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 38px;
 }
